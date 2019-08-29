@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+}
+
+.mt-3 {
+  margin-top: 3em !important;
+}
+
+.title {
+  margin: 15px 0;
+  text-align: center;
+  color: #212121;
+}
+
+.card {
+  background-color: #FFF;
+  max-width: 500px;
+  margin: auto;
+  padding: 25px 15px;;
+  box-shadow: 0 10px 15px rgba(0,0,0,.1);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex .col {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.col label{
+  display: block;
+  margin-bottom: 5px;
+  color: #212121;
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+.counter {
+  background-color: #FFF;
+  display: inline-block;
+  border: 1px solid #eee;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1)
+}
+
+.counter span{
+  height: 100%;
+  display: block;
+  line-height: 62px;
+  width: 80px;
+  float: right;
+  color: #212121;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #B2DFDB;
+}
+
+.counter .control {
+  float: left;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  padding: 8px;
+  display: block;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #009688;
+}
+
+button:active{
+  background-color: #00796B;
+}
+
+.timer {
+  text-align: center;
+}
+
+.timer h3{
+  margin: 15px 0;
+  color: #212121;
+  font-size: 1.5em;
+}
+
+.timer span{
+  font-weight: 200;
+  font-size: 2.5em;
+}
+
+.timer button {
+  display: block;
+  font-size: 18px;
+  margin: 15px auto;
+}
+
+.timer button:first-of-type {
+  background-color: #4CAF50;  
+}
